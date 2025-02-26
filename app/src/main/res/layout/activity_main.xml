@@ -15,12 +15,12 @@
         android:layout_marginBottom="172dp"
         android:text="Time:0"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/duraklatbuttonid"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/baslatbuttonid"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="55dp"
@@ -29,12 +29,12 @@
         android:onClick="Baslat"
         android:text="Baslat"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/durdurbuttonid"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TimeTextView" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/durdurbuttonid"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginTop="71dp"
@@ -42,11 +42,11 @@
         android:onClick="Durdur"
         android:text="Durdur"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/baslatbuttonid"
         app:layout_constraintTop_toBottomOf="@+id/TimeTextView" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/duraklatbuttonid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
@@ -54,6 +54,6 @@
         android:onClick="Duraklat"
         android:text="Duraklat"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/baslatbuttonid"
         app:layout_constraintTop_toBottomOf="@+id/TimeTextView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
